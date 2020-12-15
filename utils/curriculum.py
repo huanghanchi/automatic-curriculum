@@ -6,7 +6,7 @@ import utils
 
 
 def get_curriculum(curriculum_id):
-    curriculum_fname = os.path.join("curriculums", curriculum_id + ".json")
+    curriculum_fname = os.path.join("/content/automatic-curriculum/curriculums", curriculum_id + ".json")
     with open(curriculum_fname) as file:
         json_G = json.load(file)
         G = nx.DiGraph()
