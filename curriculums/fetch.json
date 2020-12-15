@@ -1,0 +1,11 @@
+{
+    "nodes": {
+        "5": {"id": "MiniGrid-Fetch-5x5-N2-v0", "min": 0, "max": 0.5},
+        "6": {"id": "MiniGrid-Fetch-6x6-N2-v0", "min": 0, "max": 0.5},
+        "8": {"id": "MiniGrid-Fetch-8x8-N3-v0", "min": 0, "max": 0.5}
+    },
+    "edges": [
+        ["5", "6"],
+        ["6", "8"]
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "nodes": {
+        "5": {"id": "MiniGrid-DoorKey-5x5-v0", "min": 0, "max": 0.5},
+        "6": {"id": "MiniGrid-DoorKey-6x6-v0", "min": 0, "max": 0.5},
+        "8": {"id": "MiniGrid-DoorKey-8x8-v0", "min": 0, "max": 0.5},
+        "10": {"id": "MiniGrid-DoorKey-10x10-v0", "min": 0, "max": 0.5},
+        "12": {"id": "MiniGrid-DoorKey-12x12-v0", "min": 0, "max": 0.5},
+        "14": {"id": "MiniGrid-DoorKey-14x14-v0", "min": 0, "max": 0.5},
+        "16": {"id": "MiniGrid-DoorKey-16x16-v0", "min": 0, "max": 0.5}
+    },
+    "edges": [
+        ["5", "6"],
+        ["6", "8"],
+        ["8", "10"],
+        ["10", "12"],
+        ["12", "14"],
+        ["14", "16"]
+    ]
+}

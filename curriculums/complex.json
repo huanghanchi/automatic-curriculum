@@ -1,0 +1,11 @@
+{
+    "nodes": {
+        "f": {"id": "MiniGrid-Fetch-8x8-N3-v0", "min": 0, "max": 0.5},
+        "e": {"id": "MiniGrid-Empty-16x16-v0", "min": 0, "max": 0.5},
+        "d": {"id": "MiniGrid-DoorKey-16x16-v0", "min": 0, "max": 0.5}
+    },
+    "edges": [
+        ["f", "e"],
+        ["e", "d"]
+    ]
+}

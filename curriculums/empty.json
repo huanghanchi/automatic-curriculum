@@ -1,0 +1,17 @@
+{
+    "nodes": {
+        "5": {"id": "MiniGrid-Empty-5x5-v0", "min": 0, "max": 0.5},
+        "r5": {"id": "MiniGrid-Empty-Random-5x5-v0", "min": 0, "max": 0.5},
+        "6": {"id": "MiniGrid-Empty-6x6-v0", "min": 0, "max": 0.5},
+        "r6": {"id": "MiniGrid-Empty-Random-6x6-v0", "min": 0, "max": 0.5},
+        "8": {"id": "MiniGrid-Empty-8x8-v0", "min": 0, "max": 0.5},
+        "16": {"id": "MiniGrid-Empty-16x16-v0", "min": 0, "max": 0.5}
+    },
+    "edges": [
+        ["5", "r5"],
+        ["r5", "6"],
+        ["6", "r6"],
+        ["r6", "8"],
+        ["8", "16"]
+    ]
+}

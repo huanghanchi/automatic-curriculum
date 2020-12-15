@@ -1,0 +1,13 @@
+{
+    "nodes": {
+        "2": {"id": "MiniGrid-MultiRoom-N2-S4-v0", "min": 0, "max": 0.5},
+        "4": {"id": "MiniGrid-MultiRoom-N4-S5-v0", "min": 0, "max": 0.5},
+        "6": {"id": "MiniGrid-MultiRoom-N6-v0", "min": 0, "max": 0.5},
+        "8": {"id": "MiniGrid-MultiRoom-N8-v0", "min": 0, "max": 0.5}
+    },
+    "edges": [
+        ["2", "4"],
+        ["4", "6"],
+        ["6", "8"]
+    ]
+}
